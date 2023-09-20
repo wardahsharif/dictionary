@@ -39,6 +39,7 @@ const Content = ({partOfSpeech, definitions, synonyms}) => {
       </div>
       
 </div>
+
         </div>
     )
 }
