@@ -15,7 +15,7 @@ import React , {useRef} from 'react'
       <br/><span className="fs-5 fw-light">{phonetic}</span>
       </h3>
       
-        <button onClick={playAudio} className="btn btn-light rounded-circle px-4"><i class="fa-solid fa-play"></i></button>
+        <button onClick={playAudio} className="btn btn-light rounded-circle px-4" id="myButton"><i class="fa-solid fa-play"></i></button>
       
       <audio className="hidden" ref={ref} src={audioUrl}/>
     </div>

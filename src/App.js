@@ -29,6 +29,8 @@ return {
 }
 
   return (
+    <div >
+
     <div className="container text-center shadow my-4 p-4 rounded">
 
        <nav className="text my-2 fs-4 fw-bold mt-4">
@@ -44,7 +46,8 @@ return {
     placeholder='Search word' 
     className="form-control bg-light border-0 rounded px-3 py-3"/>
    <div className="input-group-append">
-   <button className="btn bg-secondary-subtle end-0 py-2 pb-4" 
+   <button className="btn bg-light-emphasis end-0 py-2 pb-4" 
+   id="searchButton"
    type="button"
    onClick={SearchWord}
    ><i className="fa-solid fa-magnifying-glass fa-lg pt-4 "></i></button>
@@ -63,10 +66,11 @@ return {
           })}
           </>
       )}
-    <p className="bg-light m-4">Open source code by <a href="https://github.com/wardahsharif">Wardah Sharif</a></p>
+    <p className=" " id="coder">Open source code by <a href="https://github.com/wardahsharif">Wardah Sharif</a></p>
 
      
 
+</div>
 </div>
   );
 }

@@ -1,3 +1,5 @@
+
+
 h1 {
     font-family: 'Playfair Display',
 serif;
@@ -6,4 +8,25 @@ serif;
 .container {
     overflow: hidden;
     z-index: 1;
+    background-color: rgb(245, 225, 196);
+}
+
+#myButton {
+    
+    background-color: rgb(245, 225, 196);
+}
+
+#myButton:hover {
+background-color: rgb(217, 191, 153);
+
+}
+
+#searchButton:hover {
+background-color: rgb(217, 191, 153);
+}
+
+#coder {
+    background-color: rgb(241, 207, 165);
+    margin-top: 70px;
+    backdrop-filter: blur(100px);
 }
